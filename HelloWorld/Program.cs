@@ -4,4 +4,6 @@ using HelloWorld;
 Console.WriteLine("Hello, World!");
 
 //HelloWorld.StringExamples.RunExamples();
-MadLibs.Run();
+//MadLibs.Run();
+ArraysH.Run();
+
