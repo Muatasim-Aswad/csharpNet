@@ -1,5 +1,5 @@
 
-namespace HelloWorld
+namespace HelloWorld.previous
 {
   public class MadLibs
   {

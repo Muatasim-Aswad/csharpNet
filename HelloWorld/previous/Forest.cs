@@ -1,6 +1,6 @@
 using System;
 
-namespace Review
+namespace HelloWorld.previous
 {
   class Forest
   {
@@ -28,7 +28,7 @@ namespace Review
       }
     }
 
-    private string biome;
+    private string biome = "Unknown";
     public string Biome
     {
       get { return biome; }

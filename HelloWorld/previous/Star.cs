@@ -1,4 +1,4 @@
-namespace HelloWorld
+namespace HelloWorld.previous
 {
   public class Star(string name, string type)
   {
@@ -8,11 +8,11 @@ namespace HelloWorld
     private int age = 0; // in years
     private double brightness = 1.0; // arbitrary brightness scale
 
-    public string Comments { get; } = string.Empty;
+    public string Comments { get; set; } = string.Empty;
     public string ExtraInfo
     {
       get => $"Star {name} of type {type} is {age} years old with brightness {brightness}. {Comments}";
-      set => _comments += value;
+      set => Comments += value;
     }
 
     public Star(string name) : this(name, "Unknown")
